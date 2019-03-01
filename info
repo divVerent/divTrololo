@@ -1,0 +1,6 @@
+(supertux-level-subset
+  (title (_ "divTrololo"))
+  (description (_ "They see me trollin', they hatin'"))
+  (levelset #t)
+  (hide-from-contribs #f)
+)
