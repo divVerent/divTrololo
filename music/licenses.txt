@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SuperTuxKart
+Upstream-Contact:
+ Joerg Henrichs <henrichsjoerg@gmail.com>
+ Marianne Gagnon <auria.mg@gmail.com>
+ Jean-Manuel Clémençon <sam.un@protonmail.com>
+Source: https://supertuxkart.net
+License: GPL2+ and CC-BY-SA
