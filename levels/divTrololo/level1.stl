@@ -151,7 +151,7 @@
       (y 352)
     )
     (infoblock
-      (message (_ "Pick-a-door!"))
+      (message (_ "Well, if this isn't pick-a-door again. My favorite."))
       (x 64)
       (y 1056)
     )
@@ -166,12 +166,12 @@
       (y 198)
     )
     (infoblock
-      (message (_ "Greetings to Carl, Juz, WhiteHawke, Ryu, Hector and the Barbhole"))
+      (message (_ "Greetings to WhiteHawke, Ryu, Hector and the Barbhole"))
       (x 352)
       (y 449.875)
     )
     (infoblock
-      (message (_ "WARNING: This level is known to the state of California to contain trolls."))
+      (message (_ "WARNING: This level is known to the state of Carlifornia to contain juz the right amount of trolls"))
       (x 384)
       (y 449.875)
     )
@@ -655,6 +655,16 @@
       (x 192)
       (y 640)
     )
+    (infoblock
+      (message (_ "No, no! I'm not playing any new soup speedruns!"))
+      (x 96)
+      (y 736)
+    )
+    (infoblock
+      (message (_ "Funny and original."))
+      (x 192)
+      (y 192)
+    )
     (livefire_asleep
       (direction "left")
       (x 416)
@@ -879,7 +889,7 @@
       68 64 69 0 0 0 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 103 0 0 0 68 64 69
       68 64 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 68 64 69
       68 64 69 0 0 0 0 0 2819 227 227 227 227 227 227 227 227 227 227 227 227 227 227 0 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 227 2820 44 0 0 44 0 68 64 69
-      68 64 69 0 0 0 68 64 64 83 64 64 64 64 64 64 64 64 64 64 64 103 64 64 64 64 64 64 64 64 64 64 64 64 83 64 64 64 64 64 64 64 64 64 64 64 64 64 69 0 0 0 68 64 69
+      68 64 69 0 0 0 0 68 64 83 64 64 64 64 64 64 64 64 64 64 64 103 64 64 64 64 64 64 64 64 64 64 64 64 83 64 64 64 64 64 64 64 64 64 64 64 64 64 69 0 0 0 68 64 69
       68 64 69 0 44 112 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 227 227 227 227 227 227 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 44 68 64 69
       68 64 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 64 69
       68 64 69 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 227 2820 0 0 0 0 0 0 0 0 0 0 2819 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 68 64 69
@@ -1086,7 +1096,7 @@
       (y 352)
     )
     (infoblock
-      (message (_ "Kick-a-door!"))
+      (message (_ "This is a level that exists."))
       (x 768)
       (y 1056)
     )
@@ -1099,6 +1109,16 @@
       (message (_ "DOPEFISH LIVES"))
       (x 1199)
       (y 199)
+    )
+    (infoblock
+      (message (_ "carlBad"))
+      (x 320)
+      (y 448.625)
+    )
+    (infoblock
+      (message (_ "barbMiku"))
+      (x 352)
+      (y 448.625)
     )
     (music
       (file "/music/chipdisko.ogg")
