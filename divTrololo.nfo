@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "divTrololo")
+  (version 2)
+  (type "worldmap")
+  (title "divTrololo")
+  (author "divVerent")
+  (license "CC-BY-SA 4.0 International"))
