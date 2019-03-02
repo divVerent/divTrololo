@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Tux fails twice twice two"))
+  (name (_ "Tux dies to everything twice twice two"))
   (author "divVerent")
   (license "CC-BY-SA 4.0 International")
   (sector
@@ -164,6 +164,16 @@
       (message (_ "Swim swim hungry, swim swim hungry"))
       (x 1199)
       (y 198)
+    )
+    (infoblock
+      (message (_ "Greetings to Carl, Juz and the Barbhole"))
+      (x 352)
+      (y 449.875)
+    )
+    (infoblock
+      (message (_ "WARNING: This level is known to the state of California to contain trolls."))
+      (x 384)
+      (y 449.875)
     )
     (music
       (file "/music/chipdisko.ogg")
@@ -575,6 +585,10 @@
       (x 3808)
       (y 1216)
     )
+    (trampoline
+      (x 4480)
+      (y 480)
+    )
     (walkingleaf
       (direction "left")
       (x 4672)
@@ -666,7 +680,7 @@
       (y 672)
     )
     (rustytrampoline
-      (x 1120)
+      (x 1248)
       (y 672)
     )
     (short_fuse
@@ -746,7 +760,7 @@
     )
     (smartblock
       (direction "left")
-      (x 1248)
+      (x 1120)
       (y 672)
     )
     (smartblock
