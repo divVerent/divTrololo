@@ -289,7 +289,7 @@
     )
     (powerup
       (disable-physics #t)
-      (sprite "/images/powerups/1up/1up.sprite")
+      (sprite "images/powerups/1up/1up.sprite")
       (x 928)
       (y 320)
     )
@@ -730,7 +730,7 @@
     )
     (powerup
       (disable-physics #t)
-      (sprite "/images/powerups/1up/1up.sprite")
+      (sprite "images/powerups/1up/1up.sprite")
       (x 192)
       (y 672)
     )
