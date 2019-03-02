@@ -166,12 +166,12 @@
       (y 198)
     )
     (infoblock
-      (message (_ "Greetings to WhiteHawke, Ryu, Hector and the Barbhole"))
+      (message (_ "Greetings to WhiteHawke, Ryu, Hector, the barbHole and..."))
       (x 352)
       (y 449.875)
     )
     (infoblock
-      (message (_ "WARNING: This level is known to the state of Carlifornia to contain juz the right amount of trolls"))
+      (message (_ "WARNING: This level contains trolls known to the state of Carlifornia to cause frustration, saltiness or juz some laughs."))
       (x 384)
       (y 449.875)
     )
@@ -1112,13 +1112,13 @@
     )
     (infoblock
       (message (_ "carlBad"))
-      (x 320)
-      (y 448.625)
+      (x 352)
+      (y 449.875)
     )
     (infoblock
       (message (_ "barbMiku"))
-      (x 352)
-      (y 448.625)
+      (x 384)
+      (y 449.875)
     )
     (music
       (file "/music/chipdisko.ogg")
