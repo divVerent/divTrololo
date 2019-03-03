@@ -301,8 +301,8 @@
     )
     (spawnpoint
       (name "main")
-      (x 4515.81)
-      (y 337.5238)
+      (x 128)
+      (y 480)
     )
     (spawnpoint
       (name "CP1")
