@@ -1483,6 +1483,10 @@
       (x 3808)
       (y 1216)
     )
+    (trampoline
+      (x 4480)
+      (y 480)
+    )
     (walkingleaf
       (direction "left")
       (x 4672)
