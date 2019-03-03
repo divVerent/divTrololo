@@ -187,14 +187,13 @@
     (path
       (name "gen155140935830673264")
       (path
-        (mode "pingpong")
         (node
           (x 4688)
           (y 304)
         )
         (node
           (x 4688)
-          (y 435)
+          (y 454)
         )
       )
     )
@@ -303,8 +302,8 @@
     )
     (spawnpoint
       (name "main")
-      (x 128)
-      (y 480)
+      (x 4515.81)
+      (y 337.5238)
     )
     (spawnpoint
       (name "CP1")
@@ -1128,20 +1127,6 @@
       (direction "left")
       (x 4544)
       (y 1152)
-    )
-    (path
-      (name "gen155140935830673264")
-      (path
-        (mode "pingpong")
-        (node
-          (x 4688)
-          (y 304)
-        )
-        (node
-          (x 4688)
-          (y 435)
-        )
-      )
     )
     (powerup
       (sprite "images/powerups/star/star.sprite")
