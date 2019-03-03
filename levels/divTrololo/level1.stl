@@ -110,7 +110,6 @@
       (y 224)
     )
     (hurting_platform
-      (running #f)
       (path-ref "gen155140935830673264")
     )
     (icecrusher
