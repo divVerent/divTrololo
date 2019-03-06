@@ -9,5 +9,5 @@ if ! [ -d "$root" ]; then
 fi
 
 set -ex
-mkdir -p "$root/levels"
-ln -snf "$PWD/levels/divTrololo" "$root/levels/divTrololo"
+mkdir -p "$root/levels/divTrololo"
+bindfs --no-allow-other "$PWD/levels/divTrololo" "$root/levels/divTrololo"
