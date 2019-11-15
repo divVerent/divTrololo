@@ -1,4 +1,4 @@
 #!/bin/sh
 
-supertux \
+supertux2 \
 	--record-demo "$PWD/$1" "$PWD/$2"
