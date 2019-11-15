@@ -1,0 +1,6 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Super Mario RPG - Docaty Mountain Railroad
+Upstream-Contact:
+ MC-Jimmy <https://mc-jimmy.newgrounds.com/>
+Source: https://www.newgrounds.com/audio/listen/447469
+License: CC-BY-NC-SA
