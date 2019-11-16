@@ -1217,7 +1217,7 @@ juzplat.set_visible(true)")
     )
     (spawnpoint
       (name "gettingoverit")
-      (x 1856)
+      (x 1632)
       (y 256)
     )
     (spawnpoint
