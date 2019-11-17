@@ -285,12 +285,12 @@
         (mode "pingpong")
         (node
           (x 1344)
-          (y 1072)
+          (y 1104)
           (time 1.5)
         )
         (node
           (x 1184)
-          (y 1072)
+          (y 1104)
           (time 1.5)
         )
       )
@@ -301,22 +301,22 @@
         (mode "pingpong")
         (node
           (x 1376)
-          (y 944)
+          (y 976)
           (time 1.05)
         )
         (node
           (x 1488)
-          (y 944)
+          (y 976)
           (time 1.8)
         )
         (node
           (x 1488)
-          (y 752)
+          (y 784)
           (time 1.95)
         )
         (node
           (x 1280)
-          (y 752)
+          (y 784)
         )
       )
     )
@@ -668,6 +668,18 @@
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       )
+    )
+    (trampoline
+      (portable #f)
+      (sprite "/images/objects/trampoline/trampoline_fix.sprite")
+      (x 1376)
+      (y 944)
+    )
+    (trampoline
+      (portable #f)
+      (sprite "/images/objects/trampoline/trampoline_fix.sprite")
+      (x 1344)
+      (y 1072)
     )
   )
   (sector
