@@ -671,14 +671,22 @@
     )
     (trampoline
       (portable #f)
-      (sprite "/images/objects/trampoline/trampoline_fix.sprite")
-      (x 1376)
+      (x 1392)
       (y 944)
     )
     (trampoline
       (portable #f)
-      (sprite "/images/objects/trampoline/trampoline_fix.sprite")
-      (x 1344)
+      (x 1360)
+      (y 1072)
+    )
+    (trampoline
+      (portable #f)
+      (x 1360)
+      (y 944)
+    )
+    (trampoline
+      (portable #f)
+      (x 1328)
       (y 1072)
     )
   )
@@ -1292,7 +1300,7 @@ juzplat.set_visible(true)")
     )
     (infoblock
       (message (_ "Got over it, eh?"))
-      (x 1744)
+      (x 1728)
       (y 288)
     )
     (infoblock
@@ -1435,8 +1443,8 @@ juzkrosh.set_velocity(200, 0)")
     )
     (spawnpoint
       (name "gettingoverit")
-      (x 1632)
-      (y 256)
+      (x 1424)
+      (y 368)
     )
     (spawnpoint
       (name "next")
