@@ -350,6 +350,26 @@
         )
       )
     )
+    (path
+      (name "gen1574036767415891196736")
+      (path
+        (mode "pingpong")
+        (node
+          (x 2400)
+          (y 752)
+          (time 7.35)
+        )
+        (node
+          (x 3184)
+          (y 752)
+          (time 3.3)
+        )
+        (node
+          (x 3183.303)
+          (y 1100.764)
+        )
+      )
+    )
     (platform
       (running #f)
       (path-ref "gen1573781625424297749984")
@@ -377,6 +397,10 @@
     )
     (platform
       (path-ref "gen1573787876381359833216")
+      (sprite "/images/objects/skull_tile/skull_tile.sprite")
+    )
+    (platform
+      (path-ref "gen1574036767415891196736")
       (sprite "/images/objects/skull_tile/skull_tile.sprite")
     )
     (powerup
@@ -688,6 +712,16 @@
       (portable #f)
       (x 1328)
       (y 1072)
+    )
+    (trampoline
+      (portable #f)
+      (x 2416)
+      (y 720)
+    )
+    (trampoline
+      (portable #f)
+      (x 2384)
+      (y 720)
     )
   )
   (sector
