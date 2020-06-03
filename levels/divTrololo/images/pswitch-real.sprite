@@ -1,0 +1,11 @@
+(supertux-sprite
+      (action
+         (fps 2)
+         (name "normal")
+         (images "pswitch-real-1.png" "pswitch-real-2.png"
+                 ))
+      (action
+         (name "empty")
+         (images "pswitch-real-pressed.png"
+                 ))
+)
