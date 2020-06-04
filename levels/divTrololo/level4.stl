@@ -1,7 +1,7 @@
 (supertux-level
   (version 3)
   (name (_ "Midnight and Commander"))
-  (author "divVerent")
+  (author "port by divVerent, original by BarbarousKing")
   (license "CC-BY-SA 4.0 International")
   (target-time 500)
   (sector
