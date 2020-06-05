@@ -18,7 +18,7 @@
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 1344)
@@ -29,7 +29,7 @@ peacewhich.fade(1.0, 0.5);")
 peacewhich2.fade(0.0, 0.5);
 peacewhich3.fade(1.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich3.fade(0.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 4672)
@@ -39,7 +39,7 @@ peacewhich3.fade(0.0, 0.5);")
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 6464)
@@ -49,7 +49,7 @@ peacewhich.fade(1.0, 0.5);")
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 6816)
@@ -59,7 +59,7 @@ peacewhich.fade(1.0, 0.5);")
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 7232)
@@ -69,7 +69,7 @@ peacewhich.fade(1.0, 0.5);")
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 7136)
@@ -79,7 +79,7 @@ peacewhich.fade(1.0, 0.5);")
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 7104)
@@ -89,7 +89,7 @@ peacewhich.fade(1.0, 0.5);")
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 6592)
@@ -99,7 +99,7 @@ peacewhich.fade(1.0, 0.5);")
       (script "play_music(\"music/misc/bonuscave.ogg\");
 peacewhich.fade(0.0, 0.5);
 wait(10);
-play_music(\"music/antarctic/jewels.ogg\");
+play_music(\"/levels/divTrololo/music/supertux-water.music\");
 peacewhich.fade(1.0, 0.5);")
       (sprite "/levels/divTrololo/images/pswitch-real.sprite")
       (x 6592)
@@ -235,7 +235,7 @@ peacewhich.fade(1.0, 0.5);")
       (y 768)
     )
     (music
-      (file "/music/antarctic/jewels.music")
+      (file "/levels/divTrololo/music/supertux-water.music")
     )
     (owl
       (carry "skydive")
@@ -883,7 +883,7 @@ peacewhich.fade(1.0, 0.5);")
       (y 320)
     )
     (music
-      (file "/music/antarctic/jewels.music")
+      (file "/levels/divTrololo/music/supertux-water.music")
     )
     (path
       (name "gen159121371094541709984112")
