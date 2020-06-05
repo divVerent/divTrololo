@@ -1,0 +1,6 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SuperTux Water Theme
+Upstream-Contact: Rudolf Polzer <divVerent@gmail.com>
+Source: https://github.com/divVerent/divTrololo
+License: GPL2+ and CC-BY-SA
+Comment: Derived from the SuperTux Main Theme by Marek "Wansti" Moeckel
