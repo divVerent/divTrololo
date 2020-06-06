@@ -1,5 +1,5 @@
 (supertux-music
   (file "supertux-water.ogg")
   (loop-begin 8)
-  (loop-at 60)
+  (loop-at 61)
 )
