@@ -95,7 +95,7 @@ Text.fade_out(0.2);")
     (spawnpoint
       (name "main")
       (x 32)
-      (y 480)
+      (y 448)
     )
     (spawnpoint
       (name "s3")
