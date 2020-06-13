@@ -1,0 +1,102 @@
+(supertux-level
+  (version 3)
+  (name (_ "Please Just Do Slightly Better"))
+  (author "divVerent")
+  (license "CC-BY-SA 4.0 International")
+  (sector
+    (name "main")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (speed 0.5)
+      (image-top "/images/background/nightsky/nightsky_top.png")
+      (image "/images/background/nightsky/nightsky_middle.png")
+      (image-bottom "/images/background/nightsky/nightsky_bottom.png")
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (music
+      (file "/music/antarctic/cave.music")
+    )
+    (scripttrigger
+      (oneshot #t)
+      (script "for(;;) {
+  wait(3);
+  RightWind.start();
+  wait(3);
+  RightWind.stop();
+  wait(3);
+  LeftWind.start();
+  wait(3);
+  LeftWind.stop();
+}")
+      (button #f)
+      (width 32)
+      (height 96)
+      (x 64)
+      (y 480)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 32)
+      (x 32)
+      (y 32)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 480)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 17)
+      (height 17)
+      (tiles
+      3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3189
+      3189 130 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3190
+      3190 84 84 0 84 0 84 0 84 84 0 0 0 0 0 0 3189
+      3189 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 3190
+      3190 0 0 0 0 0 0 84 84 84 0 0 0 84 0 0 3189
+      3189 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 3190
+      3190 0 0 0 0 0 0 84 84 84 0 0 0 0 0 0 3189
+      3189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3190
+      3190 0 0 0 0 0 0 84 84 84 84 0 0 0 0 0 3189
+      3189 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 3190
+      3190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3189
+      3189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3190
+      3190 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 3189
+      3189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3190
+      3190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3189
+      3189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3190
+      3190 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184 3183 3184
+      )
+    )
+    (wind
+      (blowing #f)
+      (speed-x -400)
+      (speed-y 0)
+      (acceleration 2)
+      (width 480)
+      (height 480)
+      (name "LeftWind")
+      (x 32)
+      (y 32)
+    )
+    (wind
+      (blowing #f)
+      (speed-x 400)
+      (speed-y 0)
+      (acceleration 2)
+      (width 480)
+      (height 480)
+      (name "RightWind")
+      (x 32)
+      (y 32)
+    )
+  )
+)
