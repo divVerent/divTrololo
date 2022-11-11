@@ -1,0 +1,6 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SMB 3 Rock Remix
+Upstream-Contact:
+ cmperry1984 <https://cmperry1984.newgrounds.com/>
+Source: https://www.newgrounds.com/audio/listen/515883
+License: CC-BY-SA
