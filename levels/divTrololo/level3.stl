@@ -9,6 +9,7 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (alignment "bottom")
       (speed 0.25)
       (image-top "/images/background/arcticskies1.png")
@@ -16,6 +17,7 @@
       (image-bottom "/images/background/arcticskies1.png")
     )
     (background
+      (color 1 1 1)
       (alignment "bottom")
       (speed 0.5)
       (image-top "/images/background/arcticskies2.png")
@@ -24,6 +26,7 @@
       (z-pos -270)
     )
     (background
+      (color 1 1 1)
       (alignment "bottom")
       (speed 0.75)
       (image-top "/images/background/arcticskies3.png")
@@ -32,6 +35,7 @@
       (z-pos -240)
     )
     (background
+      (color 1 1 1)
       (alignment "bottom")
       (speed 1.5)
       (image-top "/images/background/arcticskies35.png")
@@ -136,6 +140,7 @@
       (name "gen1573781625424297749984")
       (path
         (mode "oneshot")
+        (adapt_speed #f)
         (node
           (x 352)
           (y 1024)
@@ -148,11 +153,9 @@
       )
     )
     (path
-      (name "gen1573782915424237239392")
-    )
-    (path
       (name "gen1573783252424245261680")
       (path
+        (adapt_speed #f)
         (node
           (x 549)
           (y 779)
@@ -182,6 +185,7 @@
     (path
       (name "gen1573783477424299225216")
       (path
+        (adapt_speed #f)
         (node
           (x 699)
           (y 779)
@@ -211,6 +215,7 @@
     (path
       (name "gen1573783488424295359488")
       (path
+        (adapt_speed #f)
         (node
           (x 624)
           (y 928)
@@ -230,33 +235,13 @@
           (x 736)
           (y 816)
           (time 1.5)
-        )
-      )
-    )
-    (path
-      (name "gen1573783502424299225472")
-      (path
-        (node
-          (x 624)
-          (y 704)
-        )
-        (node
-          (x 736)
-          (y 816)
-        )
-        (node
-          (x 624)
-          (y 928)
-        )
-        (node
-          (x 512)
-          (y 816)
         )
       )
     )
     (path
       (name "gen1573783951424297728320")
       (path
+        (adapt_speed #f)
         (node
           (x 848)
           (y 992)
@@ -283,6 +268,7 @@
       (name "gen1573787212390508701664")
       (path
         (mode "pingpong")
+        (adapt_speed #f)
         (node
           (x 1344)
           (y 1104)
@@ -299,6 +285,7 @@
       (name "gen1573787876381359833216")
       (path
         (mode "pingpong")
+        (adapt_speed #f)
         (node
           (x 1376)
           (y 976)
@@ -324,6 +311,7 @@
       (name "gen1573791622381355950880")
       (path
         (mode "oneshot")
+        (adapt_speed #f)
         (node
           (x 0)
           (y 672)
@@ -354,6 +342,7 @@
       (name "gen1574036767415891196736")
       (path
         (mode "pingpong")
+        (adapt_speed #f)
         (node
           (x 2400)
           (y 752)
@@ -456,58 +445,58 @@
       (y 288)
     )
     (scripttrigger
-      (script "Tux.kill(false)")
-      (button #f)
       (width 1)
       (height 28)
+      (script "Tux.kill(false)")
+      (button #f)
       (x 784)
       (y 836)
     )
     (scripttrigger
-      (script "Tux.kill(false)")
-      (button #f)
       (width 1)
       (height 32)
+      (script "Tux.kill(false)")
+      (button #f)
       (x 976)
       (y 800)
     )
     (scripttrigger
-      (script "Tux.kill(false)")
-      (button #f)
       (width 1)
       (height 28)
+      (script "Tux.kill(false)")
+      (button #f)
       (x 1072)
       (y 836)
     )
     (scripttrigger
-      (script "Tux.kill(false)")
-      (button #f)
       (width 1)
       (height 32)
-      (x 1168)
-      (y 864)
-    )
-    (scripttrigger
-      (script "TUx.kill(false)")
-      (button #f)
-      (width 32)
-      (height 28)
-      (x 1168)
-      (y 864)
-    )
-    (scripttrigger
       (script "Tux.kill(false)")
       (button #f)
+      (x 1168)
+      (y 864)
+    )
+    (scripttrigger
+      (width 32)
+      (height 28)
+      (script "TUx.kill(false)")
+      (button #f)
+      (x 1168)
+      (y 864)
+    )
+    (scripttrigger
       (width 256)
       (height 28)
+      (script "Tux.kill(false)")
+      (button #f)
       (x 464)
       (y 768)
     )
     (scripttrigger
-      (script "Tux.kill(false)")
-      (button #f)
       (width 1)
       (height 28)
+      (script "Tux.kill(false)")
+      (button #f)
       (x 976)
       (y 804)
     )
@@ -730,6 +719,7 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
       (image "/images/background/semi_arctic.jpg")
     )
@@ -1136,8 +1126,7 @@ carlbox_mr2.set_solid(true)")
       (color 1 1 1)
     )
     (background
-      (scroll-speed-x 0)
-      (scroll-speed-y 0)
+      (color 1 1 1)
       (speed 0.5)
       (speed-y 0)
       (image-top "/images/background/arctis_top.jpg")
@@ -1370,7 +1359,7 @@ juzkrosh.set_velocity(200, 0)")
     )
     (livefire_dormant
       (direction "left")
-      (x 1888)
+      (x 1856)
       (y 128)
     )
     (mriceblock
@@ -1388,6 +1377,7 @@ juzkrosh.set_velocity(200, 0)")
       (name "gen1573927379408950578640")
       (path
         (mode "pingpong")
+        (adapt_speed #f)
         (node
           (x 2928)
           (y 80)
@@ -1632,7 +1622,7 @@ juzkrosh.set_velocity(200, 0)")
       50 49 0 0 0 0 50 49 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 52 128 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 48 48 48 0 48 48 48 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 51 52
       51 52 0 0 0 0 51 52 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 49 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 48 0 48 48 48 48 48 48 48 48 48 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 50 49
       50 49 0 0 0 0 50 49 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 52 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 51 52
-      51 52 0 0 0 0 51 52 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 49 0 0 0 0 0 0 0 0 0 0 0 83 0 48 48 48 48 48 48 48 48 48 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 50 49
+      51 52 0 0 0 0 51 52 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 49 0 0 0 0 0 0 0 0 0 0 83 0 0 48 48 48 48 48 48 48 48 48 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 50 49
       50 49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 52 48 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 51 52
       51 52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 49 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 50 49
       50 49 50 49 50 49 50 49 50 49 50 49 0 0 0 0 0 227 0 0 0 0 48 50 49 48 0 0 0 0 227 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51 52 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 48 48 48 48 48 48 48 48 48 48 48 48 48 48 0 0 48 48 48 48 48 48 48 48 48 48 51 52
@@ -1672,6 +1662,7 @@ juzkrosh.set_velocity(200, 0)")
       (speed-x 500)
       (speed-y 50)
       (acceleration 100)
+      (affects-player #t)
       (width 256)
       (height 4)
       (x 2400)
@@ -1681,6 +1672,7 @@ juzkrosh.set_velocity(200, 0)")
       (speed-x 500)
       (speed-y -50)
       (acceleration 100)
+      (affects-player #t)
       (width 96)
       (height 24)
       (x 2528)
