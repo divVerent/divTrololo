@@ -9,6 +9,7 @@
       (color 1 1 1)
     )
     (background
+      (color 1 1 1)
       (speed 0.5)
       (image-top "/images/background/nightsky/nightsky_top.png")
       (image "/images/background/nightsky/nightsky_middle.png")
@@ -22,6 +23,8 @@
       (file "/music/antarctic/cave.music")
     )
     (scripttrigger
+      (width 32)
+      (height 96)
       (oneshot #t)
       (script "for(;;) {
   wait(3);
@@ -34,8 +37,6 @@
   LeftWind.stop();
 }")
       (button #f)
-      (width 32)
-      (height 96)
       (x 64)
       (y 480)
     )
@@ -78,9 +79,10 @@
     )
     (wind
       (blowing #f)
-      (speed-x -400)
+      (speed-x -200)
       (speed-y 0)
       (acceleration 2)
+      (affects-player #t)
       (width 480)
       (height 480)
       (name "LeftWind")
@@ -89,9 +91,10 @@
     )
     (wind
       (blowing #f)
-      (speed-x 400)
+      (speed-x 200)
       (speed-y 0)
       (acceleration 2)
+      (affects-player #t)
       (width 480)
       (height 480)
       (name "RightWind")
