@@ -1164,7 +1164,7 @@ play_music(\"\")")
     )
     (firefly
       (x 224)
-      (y 672)
+      (y 668)
     )
     (gradient
       (blend "none")
