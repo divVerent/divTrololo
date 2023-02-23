@@ -1,0 +1,5 @@
+(supertux-music
+  (file "supertux-water-for-davie504.ogg")
+  (loop-begin 8)
+  (loop-at 61)
+)
