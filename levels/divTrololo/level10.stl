@@ -812,6 +812,7 @@ if (beforeDoorsDeath >= 7) {
       (y 480)
     )
     (pushbutton
+      (script "// nop")
       (x 288)
       (y 656)
     )
@@ -1317,12 +1318,14 @@ play_music(\"\")")
     )
     (scriptedobject
       (physic-enabled #f)
+      (name "Form1_Button1")
       (sprite "images/objects/bonus_block/brick.sprite")
       (x 64)
       (y 32)
     )
     (scriptedobject
       (physic-enabled #f)
+      (name "Form1_Button2")
       (sprite "images/objects/bonus_block/brick.sprite")
       (x 96)
       (y 32)
